@@ -12,15 +12,18 @@ function App() {
 
   return (
     <>
-      <div>
-          <img src={Topimage} alt="top background" />
+      <div className='main'>
+        <img src={Topimage} alt="top background" className='top-bg' />
         
         <article className='card'>
 
-          <img src={person} alt='picture of a man'  />
+           
+           <div className='top-pattern' />
+           <div className='content'>
+          <img src={person} alt='picture of a man' className="profile-picture"  />
           <h1>Victor Crest 26</h1>
           <p>London</p>
-
+           </div>
 
           <footer>
             <div>
@@ -35,12 +38,12 @@ function App() {
 
             <div>
               1.4K
-                      
+            <p>Photos</p>           
             </div>
           </footer>
         </article>
         
-       <img src={Bottomimage} alt="bottom background" />
+       <img src={Bottomimage} alt="bottom background" className='btm-bg' />
       </div>
       
      
