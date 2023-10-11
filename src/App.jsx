@@ -27,17 +27,17 @@ function App() {
 
           <footer>
             <div>
-              80K
+              <h5>80K</h5>
              <p>Followers</p> 
             </div>
 
             <div>
-              80.3K 
+              <h5>80.3K</h5> 
               <p>Likes</p>
             </div>
 
             <div>
-              1.4K
+              <h5>1.4K</h5>
             <p>Photos</p>           
             </div>
           </footer>
